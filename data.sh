@@ -24,4 +24,16 @@ read file
 sh $file
 fi
 fi
+if [ $x = 3 ]
+then
+echo "Ardeny Foundation Terminal"
+echo "Enter passcode :"
+read code
+if [ $code = afrun ]
+echo "Correct!"
+echo "Enter file with AFT data :"
+read dirx
+sh $dirx
+fi
+fi
 #MORE COMMING SOONKBJGVMHGV
